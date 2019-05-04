@@ -1,7 +1,6 @@
 package base
 
 import (
-	"encoding/json"
 	"io/ioutil"
 	"net/http"
 )
@@ -20,11 +19,4 @@ func GetURL(url string) []byte {
 	body, _ := ioutil.ReadAll(result.Body)
 	defer result.Body.Close()
 	return body
-}
-
-//JSONDecode 將網頁回傳之文字資料轉成JSON格式
-func JSONDecode(body []byte) interface{} {
-	var resultObject interface{}
-	json.Unmarshal(body, &resultObject)
-	return resultObject
 }
