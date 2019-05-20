@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	db "zipcode/database"
-	hook "zipcode/hooks"
-	model "zipcode/models"
+	db "github.com/teed7334-restore/zipcode/database"
+	hook "github.com/teed7334-restore/zipcode/hooks"
+	model "github.com/teed7334-restore/zipcode/models"
 )
 
 func init() {

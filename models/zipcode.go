@@ -3,7 +3,7 @@ package models
 import (
 	"log"
 
-	db "zipcode/database"
+	db "github.com/teed7334-restore/zipcode/database"
 )
 
 //ZipCode 郵遞區域表

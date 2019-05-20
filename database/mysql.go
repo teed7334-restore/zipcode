@@ -3,7 +3,7 @@ package database
 import (
 	"fmt"
 
-	env "zipcode/env"
+	env "github.com/teed7334-restore/zipcode/env"
 
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"

@@ -3,10 +3,10 @@ package hooks
 import (
 	"encoding/json"
 
-	"zipcode/base"
-	bean "zipcode/beans"
-	"zipcode/env"
-	model "zipcode/models"
+	"github.com/teed7334-restore/zipcode/base"
+	bean "github.com/teed7334-restore/zipcode/beans"
+	"github.com/teed7334-restore/zipcode/env"
+	model "github.com/teed7334-restore/zipcode/models"
 )
 
 //UpdateZipCode 連上中華郵政處理回傳之行政區域資料寫入資料表
