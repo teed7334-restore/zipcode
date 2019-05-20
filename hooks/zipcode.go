@@ -3,10 +3,10 @@ package hooks
 import (
 	"encoding/json"
 
-	base "../base"
-	bean "../beans"
-	env "../env"
-	model "../models"
+	"zipcode/base"
+	bean "zipcode/beans"
+	"zipcode/env"
+	model "zipcode/models"
 )
 
 //UpdateZipCode 連上中華郵政處理回傳之行政區域資料寫入資料表

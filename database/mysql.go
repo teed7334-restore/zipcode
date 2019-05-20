@@ -3,7 +3,8 @@ package database
 import (
 	"fmt"
 
-	env "../env"
+	env "zipcode/env"
+
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )

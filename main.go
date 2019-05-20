@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	db "./database"
-	hook "./hooks"
-	model "./models"
+	db "zipcode/database"
+	hook "zipcode/hooks"
+	model "zipcode/models"
 )
 
 func init() {

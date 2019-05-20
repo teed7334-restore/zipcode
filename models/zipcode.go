@@ -3,7 +3,7 @@ package models
 import (
 	"log"
 
-	db "../database"
+	db "zipcode/database"
 )
 
 //ZipCode 郵遞區域表
